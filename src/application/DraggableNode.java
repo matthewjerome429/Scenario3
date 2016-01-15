@@ -26,6 +26,7 @@ public class DraggableNode extends AnchorPane {
 		
 		@FXML private AnchorPane root_pane;
 		@FXML private AnchorPane left_link_handle;
+		@FXML private AnchorPane middle;
 		@FXML private AnchorPane right_link_handle;
 		@FXML private Label title_bar;
 		@FXML private Label close_button;
@@ -242,7 +243,7 @@ public class DraggableNode extends AnchorPane {
 			});
 			
 			//drag detection for node dragging
-			title_bar.setOnDragDetected ( new EventHandler <MouseEvent> () {
+			middle.setOnDragDetected ( new EventHandler <MouseEvent> () {
 
 				@Override
 				public void handle(MouseEvent event) {
