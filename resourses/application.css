@@ -1,0 +1,103 @@
+.dragicon {
+	-fx-background-radius: 10; 
+}
+
+.cubic-icon {
+	-fx-fill:
+	rgba(80.0, 80.0, 80.0, 0.0);
+	
+	-fx-stroke: black;
+}
+
+.dragicon {
+	-fx-background-radius: 10; 
+}
+
+.icon-lamb {
+	-fx-background-image: url("http://www.bbc.co.uk/staticarchive/263f0924a155edcddaaa981659b9c07bfd18492c.gif");
+	-fx-background-position: center; 
+	-fx-background-repeat: no-repeat;
+}
+
+.icon-cell {
+	-fx-background-image: url("http://www.bbc.co.uk/staticarchive/58992c85200a4d5861784e4007c7d85497cc91cb.gif");
+	-fx-background-position: center; 
+	-fx-background-repeat: no-repeat;
+	
+}
+
+.icon-voltmeter {
+	-fx-background-image: url("http://www.bbc.co.uk/staticarchive/18516c76f2fe6f741dd8e562b99bc975935045b3.gif");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+
+.icon-ammeter {
+	-fx-background-image: url("http://www.bbc.co.uk/staticarchive/6327c9b04dadd449842e955a0512ec5a1e03973b.gif");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+
+.icon-veriableresistor {
+	-fx-background-image: url("http://www.bbc.co.uk/staticarchive/909b6cbc6e31beb3d95c334d8f38a27d01fcfe19.gif");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+
+.icon-resistor {
+	-fx-background-image: url("http://www.bbc.co.uk/staticarchive/4e98d1afe6c007e89af738867b535dc23569def7.gif");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+
+.icon-thermistor {
+	-fx-background-image: url("http://www.bbc.co.uk/staticarchive/12479db05202bb26ecd6302ecd932258c884f376.gif");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+
+.icon-bettery{
+	-fx-background-image: url("http://www.bbc.co.uk/staticarchive/376edcd04d0b89c3b39c0164647d2752556d9f22.gif");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+
+.icon-openswitch{
+	-fx-background-image: url("http://www.bbc.co.uk/staticarchive/3ff7b2d6066a1f031d3affd2b20e6728ce94f039.gif");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+
+.icon-closeswitch{
+	-fx-background-image: url("http://www.bbc.co.uk/staticarchive/091e3cdb7d710ffbd7f8db6a53afa0f26d5adf8d.gif");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+
+.icon-lighresistor{
+	-fx-background-image: url("http://www.bbc.co.uk/staticarchive/6678c1fff24cf76465c6fd41a04838a4b6db6bd2.gif");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+
+.icon-lightdidoe{
+	-fx-background-image: url("http://www.bbc.co.uk/staticarchive/a0e6dbe49ff5ea91bc1e58dc81fe4f50d44bae12.jpg");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+
+.node-overlay {
+    -fx-background-color: transparent;
+}
+
+.right-link-handle:hover {
+    -fx-background-radius: 0 0 10 0;
+    -fx-background-color:
+    rgba(255, 255, 255, 0.35);
+}
+
+.left-link-handle:hover {
+    -fx-background-radius: 0 0 0 10;
+    -fx-background-color:
+    rgba(255, 255, 255, 0.35);
+}
